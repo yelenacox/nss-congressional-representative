@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    background: rgb(241, 230, 238);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_info_wrapper {
+    width: 100%;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0 0;
+}
+
+.main_info_basics {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10px 0 0;
+    width: 500px;
+    height: 200px;
+    border: 5px solid rgb(70, 70, 175);
+    border-radius: 10px;
+    background: rgb(243, 244, 247);
+    box-shadow: 0 0 10px gray;
+}
+
+#portrait {
+    align-self: flex-start;
+    width: 150px;
+    padding: 10px;
+}
+
+.main_info_committee {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main_info_committee_div {
+    display: flex;
+    flex-direction: column;
+    border: 2px rgb(97, 91, 158) solid;
+    border-radius: 10px;
+    padding: 20px;
+    color: darkslategrey;
+    background: rgb(243, 244, 247);
+    margin: 0 15px 0 0;
+}
+
+#committee_title {
+    text-align: center;
+    margin: 0;
+    padding: 0px 0 10px 0;
+    font-weight: bold; 
+}
+
+.main_info_legislation {
+    display: flex;
+    flex-direction: row;
+}
+
+.main_info_legislation_div {
+    display: flex;
+    flex-direction: column;
+    border: 2px rgb(97, 91, 158) solid;
+    border-radius: 10px;
+    padding: 20px;
+    color: darkslategrey;
+    background: rgb(243, 244, 247);
+}
+
+#legislation_title {
+    text-align: center;
+    margin: 0;
+    padding: 0px 0 10px 0;
+    font-weight: bold; 
+}
